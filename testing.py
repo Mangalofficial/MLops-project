@@ -110,3 +110,9 @@ training()
 if scores[1] < 0.95 :
     input_layers(2,64,3,3,1,32)
     training()
+    
+ # Save accuracy to particular file
+
+accuracy_file = open('/MLops/accuracy.txt','w')
+accuracy_file.write(str(scores[1]))
+accuracy_file.close()
