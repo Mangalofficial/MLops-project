@@ -2,9 +2,9 @@ import smtplib
 import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-host_address = "manglam235@gmail.com"
-host_pass = "DevopsMlops@Redhat:8080"
-guest_address = "manglam235@gmail.com"
+host_address = "************@gmail.com"
+host_pass = "******************"
+guest_address = "*************@gmail.com"
 subject = "Regarding Model Accuracy "
 content = '''Hello, 
 				Developer this is an email regarding to your last commit. Your last commit was taken into consideration and based on that the trained model has given best accuracy .
