@@ -1,1 +1,3 @@
-![MLops](https://drive.google.com/file/d/1pa8NpkKgX9_H5BOPYnQd4HXxfoRPVzge/view?usp=sharing)
+# ᑌᑎᗪEᖇ GᑌIᗪEᑎᑕE Oᖴ
+# 𝓥𝓲𝓶𝓪𝓵 𝓓𝓪𝓰𝓪
+
