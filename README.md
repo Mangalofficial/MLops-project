@@ -1,3 +1,3 @@
-# Under Guidence of
-# <div align=center> 𝓥𝓲𝓶𝓪𝓵 𝓓𝓪𝓰𝓪 </div>
+# <div align=center> Under Guidence of </div>
+# <div align=center> ░v░i░m░a░l░ ░d░a░g░a░</div>
 
