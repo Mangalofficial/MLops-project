@@ -3,4 +3,4 @@
 ### Now a quick review about project :<br/>
 This is a project which would automate everything after developer commits code in GIT<br/>
 Prerequities: **GIT , Docker, ngrok and Jenkins** should be pre installed on the top of Base system RHEL8<br/>
-<div align=center>**To deploy the project**<div/>
+<div align=center><strong>**To deploy the project**<strong/><div/>
