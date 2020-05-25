@@ -1,1 +1,1 @@
-![MLops](C:\Users\mangl\Downloads\mlops.png)
+![MLops](C:\Users\mangl\Downloads\mlops.png?raw=true)
