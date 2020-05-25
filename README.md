@@ -5,7 +5,7 @@ This is a project which would automate everything after developer commits code i
 Prerequities: **GIT , Docker, ngrok and Jenkins** should be pre installed on the top of Base system RHEL8<br/>
 **To deploy the project**
 - Create a file named "Dockerfile" and copy paste from Dockerfile then save.
-- Run the command same as ```docker build -t mlops:latest .```
+- Run the command same as `docker build -t mlops:latest .`
 3) After Image created then run the cmd docker run -it --privileged -p 1991:8080 -v /:/host jenkins:latest to launch the system.
 4) Open browser and type http://<IP of BaseOS>:1991 and copy paste the jenkins password from the above launched container and setup the environment.
 5) In github set up hooks.
