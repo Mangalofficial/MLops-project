@@ -1,0 +1,5 @@
+!#/bin/bash
+
+echo "I'm done Now !!"
+
+git push -u origin master
