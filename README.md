@@ -8,10 +8,10 @@ Prerequities: **GIT , Docker, ngrok and Jenkins** should be pre installed on the
 - Run the command same as `docker build -t mlops:latest .`
 - In GIT bash go to Your `project_folder/.git/hooks//`
 - Create post-commit file and copy paste data from `post-commit`
-- Now in jenkins create job1 and write `cp -v -r -f * /myweb` in Execute shell.
+- Now in jenkins create job1 and write `cp -v -r -f * /myweb` in Execute shell.<br/>
   set triggers for SCM pooling and save
 - Create job2 and copy paste the code <br/><br/>
-`if sudo python3 /myenv/checking.py == CNN model
+`if sudo python3 /myenv/checking.py == CNN model<br/>
 then
 if sudo docker ps -a | grep testing
 then
