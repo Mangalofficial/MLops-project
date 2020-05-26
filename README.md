@@ -11,19 +11,19 @@ Prerequities: **GIT , Docker, ngrok and Jenkins** should be pre installed on the
 - Now in jenkins create job1 and write `cp -v -r -f * /myweb` in Execute shell.<br/>
   set triggers for SCM pooling and save
 - Create job2 and copy paste the code <br/><br/>
-`if sudo python3 /myenv/checking.py == CNN model<br/>
-then
-if sudo docker ps -a | grep testing
-then
-sudo docker rm -f testing
-sudo docker run -v /myweb:/MLops --name testing mlops:latest
-else
-echo "Image not present"
-fi
-fi`
+`if sudo python3 /myenv/checking.py == CNN model`<br/>
+`then`<br/>
+`if sudo docker ps -a | grep testing`<br/>
+`then`<br/>
+`sudo docker rm -f testing`<br/>
+`sudo docker run -v /myweb:/MLops --name testing mlops:latest`<br/>
+`else`<br/>
+`echo "Image not present"`<br/>
+`fi`<br/>
+`fi`<br/>
    set triggers to build after job1
 - Create job3 and copy paste the code <br/><br/>
-  `sudo python3 /myenv/mail.py`
+  `sudo python3 /myenv/mail.py`<br/>
    set triggers to builtd after job2
 4) Open browser and type http://<IP of BaseOS>:1991 and copy paste the jenkins password from the above launched container and setup the environment.
 5) In github set up hooks.
