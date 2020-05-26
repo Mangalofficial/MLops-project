@@ -29,11 +29,11 @@ Prerequities: **GIT , Docker, ngrok and Jenkins** should be pre installed on the
 
 ### Refer ss for further clarifications
 
-Job1 : Download the code and store it in `/myenv` folder.
-Job2 : Check the code and accordingly launch the container for model training. Also it check the accuracy of the model and if `acc < 0.95` it retrains the model after changing the architecture of the model. After the training the model it stores the accuracy of the model to `/MLops/accuracy.txt` file.
-Job3 : After getting best accuracy it notify to the developer for accuracy via E-mail.
-Job4 : Monitoring system for all 3 jobs using Build pipeline
+Job1 : Download the code and store it in `/myenv` folder.<br/>
+Job2 : Check the code and accordingly launch the container for model training. Also it check the accuracy of the model and if `acc < 0.95` it retrains the model after changing the architecture of the model. After the training the model it stores the accuracy of the model to `/MLops/accuracy.txt` file.<br/>
+Job3 : After getting best accuracy it notify to the developer for accuracy via E-mail.<br/>
+Job4 : Monitoring system for all 3 jobs using Build pipeline.<br/>
 
 
 
-# I would like to Thank Mr. Vimal Daga sir for this Intresting task.
+## I would like to Thank Mr. Vimal Daga sir for this Intresting task.
